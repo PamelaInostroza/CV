@@ -4,7 +4,7 @@
 
 \documentclass[english,a4paper, nologo, narrow]{europasscv}
 \usepackage[english]{babel}
-% \date{}
+
 \begin{document}
 \begin{europasscv}
 
@@ -21,10 +21,7 @@
 \ecvpersonalinfo
 \ecvpicture{img/fotoperfil.jpg}
 
-% \date{}
-
-
-  \ecvbigitem{Job applied for}{Statistician}
+\ecvbigitem{Job applied for}{Statistician}
 
   \ecvsection{Work experience}
   
