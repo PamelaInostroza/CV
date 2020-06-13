@@ -1,0 +1,330 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,       % no lik border color
+   allbordercolors=white    % white border color for all
+}
+\addbibresource{bibliography.bib}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{5D8AA8}
+
+\begin{document}
+\header{\hspace{7ex} Pamela}{ Inostroza Fernández}
+      {Statistical programmer}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+%\small
+  \includegraphics[scale=0.28]{img/fotoperfil.jpg}     
+    ~        
+    ~
+  \section{Address}
+    Brusselsestraat 163        
+    05.01, 3000
+    Leuven, Belgium
+    ~
+  \section{Phone}
+    +32 484 15 53 36
+    ~
+  \section{Mail}
+    \href{mailto:pamela.inostroza@datic.cl}{\textbf{pamela.inostroza@}\\datic.cl}
+    \href{mailto:pamelaisabel.inostrozafernandez@student.kuleuven.be}{\textbf{pamela.inostroza@}\\student.kuleuven.be}
+    ~
+    ~
+    ~
+    ~
+  \section{Methodologies}
+   - Validity and Reliability  
+   - Cluster analysis  
+   - Exploratory factor analysis   
+   - Confirmatory factor analysis  
+   - Linear regressions  
+   - Multivariate analysis  
+   - Logistic regressions
+   - Hierarchical linear models  
+   - Longitudinal studies  
+   - Structural Equation Modelling
+   - Analysis of Variance     
+    ~
+    ~
+    ~
+    ~
+    ~
+\end{aside}
+
+\section{About me}
+I have mainly worked in research on social issues, as well as economic and financial aspects, especially for government and international agencies. I have experience developing statistical analysis in different areas, using administrative data, large scale assessments and other types of surveys, applying data analysis techniques accordingly to the research question. I also have experience coding programs in different statistical packages to ma-nage data and compute indicators using mathematical and statistical procedures as well as for creating automatized reports.\\ 
+I have the ability to work in culturally sensitive contexts and achieve results under cha-llenging circumstances (problem-solving). I have excellent communication abilities (active listener). I have experience training groups in statistical and software matters, a good sense of dialogue and skills to create consensus, also I am responsible, committed and flexible. I understand the meaning of working in a multi-disciplinary team.\\
+Currently, I am renewing my expertise in the field, joining the Master in Statistics at KU Leuven in Belgium. For this reason I am looking for a freelance, home based job related to Statistical programming.\\
+
+\section{Experience}
+\begin{entrylist}
+ \entry
+    {09/17 - Now}
+    {Freelance - Partner}
+    {DATIC, Santiago, Chile}
+    {Family consultancy business, focus in programming and analysis of large dataset of information using different softwares and statistical techniques accordingly to the client needs.\\}
+  \entry
+    {09/16 - 09/19}
+    {Statistical Consultant}
+    {Education Quality Agency, Santiago, Chile}
+    {Programmer of automatized process in softwares, mainly SAS, to generate statistics, reports and data that support quantitative analysis research using achievement test and background questionnaires, from national and internationals assessment where Chile is a participating country. Research of new methodologies and instruments for the actualization of Personal and Social Indicators.\\}
+  \entry
+    {03/16 - 08/16}
+    {Consultant}
+    {ECLAC, Santiago, Chile}
+    {Statistical researcher in Scholar Violence using data from Third Regional Comparative and Explanatory Study (TERCE) comparing results, co-author of Violence and Achievement Report for UNICEF.\\}
+    \entry
+    {08/12 - 01/16}
+    {Coordinator \& Researcher}
+    {CPCE, Diego Portales University, Santiago, Chile}
+    {Head of team, in charge of coordinate the application of context questionaires in 15 participant countries for TERCE study, coordinated by the Latin American Laboratory for Assessment of the Quality of Education, led by UNESCO. Research and implementation of statistical methodologies, data analysis and co-autor of technical and results reports.\\}
+\end{entrylist}
+
+\begin{entrylist}
+\entry
+	{07/11 - 06/12}
+	{SAS Programmer}
+	{IEA - DPC, Hamburg, Germany}
+	{Management and creation of SAS coding to process datasets. Syntax adaptation, optimizing and updating procedures. Macro programming for complex procedures, adapting data to different formats according to protocols.\\}
+\entry
+    {07/07 - 05/11}
+    {Statistical Analyst}
+    {National Institute of Statistics (INE), Santiago, Chile}
+    {Research and implementation of methodologies for actualization of CPI calculation programs in SAS software. Creation of automatized programming allowing weekly validation of home-basket prices databases. Imputation of missing values using mathematical techniques.}
+\end{entrylist}
+
+
+\section{Education}
+\begin{entrylist}
+ \entry
+    {2019 - 2021}
+    {Student Master in Statistics}{Katholieke Universiteit Leuven - KU Leuven} {Master degree}
+\entry
+{} 
+{Main:}{}
+    {Survey Methodology, Statistical Consulting, Experimental design, Structural equations, Meta Analysis, Bayesian Data Analysis, Advanced Analytics in a Big Data World, Data Visualization in Data Science, Software and Data Management, Concepts of Multilevel, Longitudinal and Mixed Models.\\}
+
+  \entry
+    {2003 - 2007}
+	{Statistical Engineer}
+    {Universidad de Santiago de Chile}
+    {Professional Degree}
+
+\entry
+  {}
+{Bachelor of Statistics and Computer Science}{}{Academic Degree}
+   
+ \entry
+ {}{Main}{}{Probability and Statistics, Calculus, Algebra, Computer Science, Opera-ting System and computer equipment, Inference, Database, Sampling Techniques, Linear Models, Multivariate methods, Chronological series.}
+\end{entrylist}
+
+
+
+\begin{aside}
+    ~
+    ~  
+    ~
+\section{Languages}
+    \textbf{Spanish}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{English}\includegraphics[scale=0.40]{img/4stars.png}  
+    \textbf{German}\includegraphics[scale=0.40]{img/1stars.png}
+    \textbf{Dutch}\includegraphics[scale=0.40]{img/1stars.png}
+    ~
+    ~  
+    ~  
+    ~
+    ~
+    ~
+ \section{Statistical Software}
+    \textbf{R}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{SAS}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{SPSS}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Mplus}\includegraphics[scale=0.40]{img/4stars.png}    
+    \textbf{HLM}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{Stata}\includegraphics[scale=0.40]{img/3stars.png}
+	~ 
+	\includegraphics[scale=0.60]{img/logo_SAS_cert.png}
+	~ 
+\section{Others}
+    \textbf{Rmarkdown}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{MS Office}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{\LaTeX}\includegraphics[scale=0.40]{img/4stars.png}
+    \textbf{SQL}\includegraphics[scale=0.40]{img/4stars.png}
+    ~
+\end{aside}
+
+\section{Specialization}
+
+\begin{entrylist}
+\entry
+	{2019}
+	{SAS Certified Specialist:\\ Base Programming Using SAS 9.4}
+	{SAS Global Certification}{Certification}
+\entry
+    {2019}
+    {Dutch for foreigners}
+    {Leuven Language Institute ILT, Belgium}{Course}
+\entry
+    {2019}
+    {Academic Writing for Master's students}
+    {Leuven Language Institute ILT, Belgium}{Course}
+\entry
+    {2018}
+    {Data Scientist with R}
+    {DataCamp, online}{E-learning}
+\entry
+    {2018}
+    {Writing Policy brief}
+    {IEA-DPC, Santiago, Chile}{Workshop}
+ \entry
+    {2017}
+    {Data Science in R}
+    {Coursera, online}{E-learning}
+ \entry
+    {2013/2016}
+    {Item Response Theory (IRT)}
+    {IERI Academy, Quito, Ecuador}{Workshop}
+ \entry
+    {2014}
+    {R programming}
+    {Coursera, online}{E-learning}
+\end{entrylist}
+
+\begin{entrylist}
+\entry
+	{2013}
+	{Hierarquical Lineal Modelling (HLM)}
+	{IEA-DPC, Hamburg, Germany}{Workshop}
+\entry
+	{2012}
+	{German}
+	{SPRACHfix, Hamburg, Germany}{Course}
+\entry
+	{2010}
+	{Microeconomy}
+	{De las Americas University, Santiago, Chile}{Course}
+\entry
+	{2009}
+	{SAS Programming, Base, Macro, Guide}
+	{SAS Chile, Santiago, Chile}{Course}
+\entry
+    {2008}
+    {Advanced English}
+    {Chilean Britain Institute}{Course}
+
+\end{entrylist}
+
+
+\begin{aside}
+    ~
+    ~
+    ~
+    ~
+\section{Background}
+    \includegraphics[scale=0.62]{img/areas_pamE.png}
+    ~    
+    ~
+    ~
+\section{Techniques}
+    \includegraphics[scale=0.5]{img/est_pamE.png}
+    ~
+    ~
+    ~
+\end{aside}
+
+\section{Freelance consultancy}
+
+DATIC born as a necessity to help institutions with their data manipulation and analysis. We've had the opportunity to work and learn new techniques for research, data processing and report. We've experienced working remotely with national and international institutions.\\
+
+\textbf{Synthesis consultants, Santiago, Chile, 2019}\\
+We participate in the "Economic Development of San Antonio" project, for the Municipality of San Antonio in Chile awarded by public tender to Synthesis consultants.
+Our main responsibilities were the creation and validation of a survey applied to formal and entrepreneurial companies of the commune. Automation of the procedures for processing the instruments, validation of scales and creation of indicators. Modelling the main influencing factors in the economic development of the productive units of the commune.\\
+
+\textbf{International Labour Organization (ILO), Santiago, Chile, 2019}\\
+In 2019, for the framework of Child's Risk Identification Model's design, to be used by the Ministry of Labour. We participate jointly with a team of the Economic Commission for Latin America and the Caribbean (ECLAC) in the implementation of a child labour vulnerability index. The main tasks was a literature review, compilation, and validation of the variables associated with child labour; application of statistical techniques for the indicator creation. Development of regional vulnerability maps at the communal level of Chile.\\
+
+\textbf{Chilean Ministry of Environment, Santiago, Chile, 2018}\\
+During the end of 2017 and the beginning of 2018, I worked as an external consultant for the project “Determination of indirect product packaging in imports and exports, contained in Law 20.920”. We were in charge of identifying and establish criteria to determine the pro-ducts to be considered in the calculation of indirect imports and exports of residual waste. The analysis was done accordingly to the National Tariff Code and information regarding imports and exports in Chile during 2016. We use big data solutions in software R.\\
+
+\textbf{IEA Data Processing Center, Hamburg, Germany, 2017-2018}\\
+As consultants for “Improving the Availability of Education Data in the Caribbean” project, where we participate jointly with IEA team, in the creation and validation of a context questionnaire to be applied together with examinations, implemented in the Caribbean Examination Council (CXC). We participate in the report of results and recommendations for the definitive application of the context questionnaire.\\
+
+\textbf{Chilean Ministry of Education, Santiago, Chile, 2010/2016/2017}\\
+We have worked with this institution in three different opportunities.
+
+In 2017, we participate in the project "Automatize and updating the information of statal universities files" supported by the United Nations Development Program (UNDP), We performed the automation of administrative reports of each Statal University. The implementation was done in R software, code generation that allows the replicability of reports, and updating tables and graphs.\\
+
+In 2016 we replicated the official calculation for the selection of winners school in the National Performance Evaluation System (SNED), using software R. With this information, simulation of different methodologies was done.\\
+
+In 2010, we develop the recalculation and verification of Chile's results in PISA 2009 international report. We implement statistical models for students results. WE generate comparative graphical and tabular information for both, Chile and comparable participating countries, using SAS macros programmes for complex sample studies.\\
+
+\textbf{Colombian Institute for the Evaluation of Education (ICFES), Bogota, Colombia, 2016-2017}\\
+In 2016-2017 period, as part of the Educational Policy and Practice Studies centre (CEPPE) team, we participate in the statistical processing of "Technical Assistance for the processing of Associated Factors for the Colombian Institute for the Evaluation of Education (ICFES)” project. This consisted in modelling factors associated with learning for the several years 2012-2015. We produce the automation of procedures and reports in software R.\\
+
+\textbf{Nicaraguan Ministry of Education, Managua, Nicaragua, 2016}\\
+During 2016, as part of the consulting team in the project "Accompaniment to the Nicaraguan Ministry of Education in the implementation and analysis of the results for their national educational evaluation". As part of the Educational Policy and Practice Studies centre (CEPPE) team, we conducted training to members of the ministry evaluation department, the main subjects studied were educational research methodologies and practical exercises using SPSS and HLM software.\\
+
+\textbf{United Nations Children's Fund (UNICEF), Santiago, Chile, 2016}\\
+In 2016, we carried out the construction of a typology of countries according to their degree of progress in terms of secondary education. We collect online information for educative indicators for 33 countries in Latin America and the Caribbean. Data analysis and construction of country typology was done in SPSS software.\\
+
+\textbf{Education Quality Agency of Chile, Santiago, Chile, 2015}\\
+Consultancy to determine the "Internal coherence of the Other Quality Indicators (ICO) 2015". Our tasks were review methodologies used in the official calculation of Personal and Social Development indicators. We implement automatical routines for the calculation of these indicators in SAS software, using macros, data steps and statistical procedures as, exploratory factor analysis, cluster analysis to determine group levels among others. The automation took into account the aggregation of different levels of data, and subjects. We had to check with the client procedures equivalence and differences until the results were the same at decimals accuracy.\\
+
+\textbf{National Statistics Institute of Chile, Santiago, Chile, 2012/2014}\\
+In the years 2012 and 2014, we perform consulting on SAS programming of routines for the calculation of Economic Indicators (IRCI, CPI). We perform an external audit of the methodology applied concerning data validation, imputation of missing data, aggregation of indicators and seasonal treatment of products.
+
+
+\section{Others}
+
+\textbf{Experience giving workshops}\\
+We've participated in workshops as a speaker in statistical techniques and software applications.\\
+
+\emph{SAS enterprise guide (INE), Statistical techniques in R (INE), Multilevel Modelling with Mplus (UNESCO), Analysis of associated factors with SPSS (MINED - Nicaragua), Use of complex databases with SAS (Education Quality Agency), Psychometric analysis of context questionnaire with R (INEVAL - Ecuador)}.
+
+
+\section{Referees}
+\begin{entrylist}
+\entry
+{}{Sergio Valdés}
+{Synthesis Consultants, Chile}{Fono: (+56) 9 9796 3066, \href{svaldes@synthesisconsultores.cl}{Mail: svaldes@synthesisconsultores.cl}}
+
+\entry
+{}{Maria de la Luz Gonzalez}
+   {Education Quality Agency, Chile}{Fono: (+56) 2 2871-8813, \href{marialuz.gonzalez@agenciaeducacion.cl}{Mail: marialuz.gonzalez@agenciaeducacion.cl}}
+
+\entry
+{}{Oliver Neuschmidt}
+{Unit Head of International Studies, IEA-DPC, Germany}{Fono: (+49) 40 48 500, \href{oliver.Neuschmidt@iea-hamburg.de}{Mail: oliver.Neuschmidt@iea-hamburg.de}}
+
+\entry
+{}{Andrés Sandoval}
+{Lecturer, Department of Education, University of Bath, UK}{Fono: (+44 0) 1225 38 4003, \href{a.sandoval@bath.ac.uk}{Mail: a.sandoval@bath.ac.uk}}
+
+\entry
+{}{Cristian Copaja}
+{Unit head in Studies and Intelligence for the National Consumer Service (SERNAC), Chile}{Fono: (+56) 2 594 6000, \href{cristian.copaja@sernac.cl}{Mail: cristian.copaja@gmail.com}}
+\end{entrylist}
+
+
+\begin{flushleft}
+\emph{June, 2020}
+\end{flushleft}
+\begin{flushright}
+\emph{Pamela Inostroza}
+\end{flushright}
+
+\end{document}
