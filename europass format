@@ -9,7 +9,7 @@
 \begin{europasscv}
 
 \ecvname{Pamela Isabel Inostroza Fernández}
-\ecvaddress{Brusselsestraat 163 box	05.01, 3000 Leuven, Belgium}
+\ecvaddress{Brusselsestraat 163 box 05.01, 3000 Leuven, Belgium}
 \ecvmobile{(+32) 484 15 53 36}
 \ecvemail{pamela.inostroza@datic.cl inostroza.f.pamela@gmail.com}
 \ecvgithubpage{https://github.com/PamelaInostroza}
@@ -19,11 +19,10 @@
 \ecvnationality{Chilean}
 \ecvgender{Female}
 \ecvpersonalinfo
-\ecvpicture{img/fotoperfil.jpg}
 
-\ecvbigitem{Job applied for}{Statistician}
+\ecvbigitem{Job applied for}{Statistician / Statistical programmer}
 
-  \ecvsection{Work experience}
+\ecvsection{Work experience}
   
   \ecvtitle{September 2017 -- Present}{Independent consultant}
   \ecvitem{}{DATIC, Santiago (Chile)}
@@ -58,7 +57,7 @@
  
  \newpage
   
-  \ecvsection{Education and training}
+\ecvsection{Education and training}
   
   \ecvtitlelevel{2019 - 2021}{Master in Statistics and Data Science}{}
   \ecvitem{}{Katholieke Universiteit Leuven - KU Leuven, Belgium}
@@ -111,12 +110,12 @@
      \end{ecvitemize}
 	}
 
-  \ecvsection{Personal skills}
+\ecvsection{Personal skills}
   \ecvmothertongue{Spanish}
   \ecvlanguageheader
   \ecvlanguage{English}{C1}{C1}{C1}{C1}{B2}
   \ecvlanguagecertificate{International English Language Testing System (IELTS) C1}
-   \ecvlanguagefooter
+  \ecvlanguagefooter
    
   \ecvblueitem{Communicational skills}{
   \begin{ecvitemize}
@@ -176,8 +175,7 @@
   		\item (2015) UNESCO OREALC. \textit{Reporte Técnico Tercer Estudio Regional Comparativo y Explicativo (TERCE)”. Capítulo 7: Análisis de datos factores asociados. Santiago: OREALC/UNESCO}. 
   		\item (2015) Treviño, E.; Fraser P.; Meyer, A.; Morawietz, L.; Inostroza, P. \& Naranjo, E. \textit{Informe de resultados Tercer Estudio Comparativo y Explicativo (TERCE). Cuadernillo Nº3 Factores Asociados, Santiago: OREALC/UNESCO}.  		
   	\end{ecvitemize}
-}
-  
-  \end{europasscv}
+  }
+\end{europasscv}
 
 \end{document}
