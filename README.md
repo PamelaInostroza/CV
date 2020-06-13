@@ -1,1 +1,1 @@
-Here are all different formats for CV used by me
+Here are all different latex CV templates used by me
